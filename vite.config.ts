@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/SIH2026-FrontEnd/', // Add this line matching your repository name
   plugins: [react()],
   resolve: {
     alias: {
